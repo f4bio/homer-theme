@@ -1,5 +1,5 @@
 ---
-title: "Homer Theme"
+title: "b3lch21 Landing Page"
 subtitle: "Walkx"
 logo: "logo.png"
 
@@ -42,7 +42,31 @@ colors:
     background-image: "../assets/wallpaper.jpeg"
 
 services:
-  - name: "//GitHub"
+  - name: "// homelab"
+    icon: "fas fa-home"
+    items:
+      - name: "PiHole"
+        logo: "assets/tools/pihole.png"
+        type: "PiHole"
+        url: "http://192.168.188.2/admin/"
+        target: "_blank"
+        apikey: "b4e78bcf1d0e181c7bcda1c86aacc80cd53ea4529f7700fc83e1c3fc35ac3a1e"      
+      - name: "Portainer"
+        logo: "assets/tools/portainer.png"
+        url: "http://192.168.188.2/"
+        type: "Portainer"
+        apikey: "ptr_Bi6Z6m0lvlnKadxj/Eq/gr23QrVlRfoaIy25/L9035k="
+      - name: "ruTorrent"
+        logo: "assets/tools/rutorrent.png"
+        url: "http://qf4b.fritz.box:49154"
+        xmlrpc: "http://qf4b.fritz.box:8000"
+        type: "Rtorrent"
+        rateInterval: 5000 
+        torrentInterval: 60000
+        username: "rutorrent"
+        password: "tnerrotur"
+
+  - name: "// repos"
     icon: "fas fa-github"
     items:
       - name: "Homer Theme"
@@ -53,7 +77,7 @@ services:
         url: "https://github.com/WalkxCode/Homer-Theme"
         target: "_blank"
 
-  - name: "//Reddit"
+  - name: "// social"
     icon: "fas fa-reddit"
     items:
       - name: "The original reddit post!"
