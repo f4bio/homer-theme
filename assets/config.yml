@@ -56,6 +56,7 @@ services:
         url: "http://rpi4.fritz.box:9000"
         type: "Portainer"
         apikey: "ptr_Bi6Z6m0lvlnKadxj/Eq/gr23QrVlRfoaIy25/L9035k="
+        target: "_blank"
       - name: "ruTorrent"
         logo: "assets/tools/rutorrent.png"
         url: "http://qf4b.fritz.box:49154"
@@ -65,25 +66,26 @@ services:
         torrentInterval: 60000
         username: "rutorrent"
         password: "tnerrotur"
+        target: "_blank"
 
   - name: "// links"
     icon: "fas fa-github"
     items:
-      - name: "Qf4b Theme"
-        logo: "assets/tools/walkx.png" # Change github.png to the name of your own custom icon!
+      - name: "Qf4b"
+        logo: "assets/tools/qnap.png"
         subtitle: "Qnap web interface!"
         tag: "nas"
-        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
+        tagstyle: "is-primary"
         url: "http://qf4b.fritz.box:8080"
         target: "_blank"
 
-  - name: "// social"
+  - name: "// media"
     icon: "fas fa-reddit"
     items:
-      - name: "The original reddit post!"
-        logo: "assets/tools/reddit.png"
-        subtitle: "Yes... this is Homer."
-        tag: "reddit"
-        tagstyle: "is-info"
-        url: "https://www.reddit.com/r/selfhosted/comments/q9e82c/yes_this_is_homer_yes_i_spent_2_hours_customizing/"
+      - name: "Plex"
+        logo: "assets/tools/plex.png"
+        url: "http://qf4b.fritz.box:32400/web"
+        endpoint: "http://qf4b.fritz.box:8181"
+        type: "Tautulli"
+        apikey: "<---insert-api-key-here--->"
         target: "_blank"
