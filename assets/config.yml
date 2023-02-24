@@ -43,10 +43,10 @@ colors:
 
 services:
   - name: "// services"
-    icon: "fas fa-home"
+    icon: "fas fa-bell-concierge"
     items:
       - name: "Copy me!"
-        logo: "assets/tools/clipboard.png"
+        logo: "assets/tools/copy.png"
         subtitle: "Subtitle text goes here"
         url: "#"
         type: "CopyToClipboard"
@@ -65,7 +65,7 @@ services:
         type: "OpenWeather"
 
   - name: "// homelab"
-    icon: "fas fa-link"
+    icon: "fas fa-home"
     items:
       - name: "Qf4b"
         logo: "assets/tools/qnap.png"
@@ -78,7 +78,6 @@ services:
         tag: "rpi4"
         tagstyle: "is-success"
         logo: "assets/tools/pihole.png"
-        type: "PiHole"
         url: "http://rpi4.fritz.box/admin/"
         target: "_blank"
         apikey: "b4e78bcf1d0e181c7bcda1c86aacc80cd53ea4529f7700fc83e1c3fc35ac3a1e"      
@@ -90,18 +89,18 @@ services:
         type: "Portainer"
         apikey: "ptr_Bi6Z6m0lvlnKadxj/Eq/gr23QrVlRfoaIy25/L9035k="
         target: "_blank"
-      - name: "ruTorrent"
-        tag: "qf4b"
-        tagstyle: "is-info"
-        logo: "assets/tools/rutorrent.png"
-        url: "http://qf4b.fritz.box:49154"
-        target: "_blank"
-        xmlrpc: "http://qf4b.fritz.box:8000"
-        type: "Rtorrent"
-        rateInterval: 5000 
-        torrentInterval: 60000
-        username: "rutorrent"
-        password: "tnerrotur"
+      # - name: "ruTorrent"
+      #   tag: "qf4b"
+      #   tagstyle: "is-info"
+      #   logo: "assets/tools/rutorrent.png"
+      #   url: "http://qf4b.fritz.box:49154"
+      #   target: "_blank"
+      #   xmlrpc: "http://qf4b.fritz.box:8000"
+      #   type: "Rtorrent"
+      #   rateInterval: 5000 
+      #   torrentInterval: 60000
+      #   username: "rutorrent"
+      #   password: "tnerrotur"
       - name: "Transmission"
         tag: "qf4b"
         tagstyle: "is-info"
@@ -113,13 +112,13 @@ services:
         tagstyle: "is-info"
         logo: "assets/tools/plex.png"
         url: "http://qf4b.fritz.box:32400/web"
-        endpoint: "http://qf4b.fritz.box:49155"
+        endpoint: "http://qf4b.fritz.box:49154"
         type: "Tautulli"
-        apikey: e4409c8cd5b1411fb18325241b5f1d06"
+        apikey: 88030c980aad474d93d442670914d139"
         target: "_blank"
 
   - name: "// www"
-    icon: "fas fa-play"
+    icon: "fas fa-globe"
     items:
       - name: "homepage"
         logo: "assets/tools/home.png"
@@ -128,4 +127,8 @@ services:
       - name: "Google"
         logo: "assets/tools/google.png"
         url: "https://google.com"
+        target: "_blank"
+      - name: "Homer Dashboard"
+        logo: "assets/tools/homer.png"
+        url: "https://github.com/bastienwirtz/homer"
         target: "_blank"
