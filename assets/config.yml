@@ -113,6 +113,9 @@ services:
         logo: "assets/tools/qbittorrent.png"
         url: "http://qf4b.fritz.box:6363/"
         target: "_blank"
+        type: "qBittorrent"
+        torrentInterval: 60000
+        rateInterval: 5000
       - name: "Plex"
         tag: "qf4b"
         tagstyle: "is-info"
