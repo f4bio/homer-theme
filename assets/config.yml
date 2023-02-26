@@ -1,6 +1,6 @@
 ---
-title: "Landing Page"
-subtitle: "@b3lch21"
+title: "b3lch21 Dashboard"
+subtitle: "Subtitle text goes here"
 logo: "logo.png"
 
 header: false
@@ -116,6 +116,8 @@ services:
         type: "qBittorrent"
         torrentInterval: 60000
         rateInterval: 5000
+        username: "admin"
+        password: "adminadmin"
       - name: "Plex"
         tag: "qf4b"
         tagstyle: "is-info"
@@ -124,6 +126,18 @@ services:
         endpoint: "http://qf4b.fritz.box:49154"
         type: "Tautulli"
         apikey: 88030c980aad474d93d442670914d139"
+        target: "_blank"
+      - name: "Syncthing"
+        tag: "qf4b"
+        tagstyle: "is-info"
+        logo: "assets/tools/syncthing.png"
+        url: "http://qf4b.fritz.box:8384"
+        target: "_blank"
+      - name: "File Browser"
+        tag: "qf4b"
+        tagstyle: "is-info"
+        logo: "assets/tools/filebrowser.png"
+        url: "http://qf4b.fritz.box:49159"
         target: "_blank"
 
   - name: "// www"
@@ -136,6 +150,9 @@ services:
       - name: "Google"
         logo: "assets/tools/google.png"
         url: "https://google.com"
+      - name: "Gmail"
+        logo: "assets/tools/gmail.png"
+        url: "https://gmail.com"
         target: "_blank"
       - name: "Homer Dashboard"
         logo: "assets/tools/homer.png"
