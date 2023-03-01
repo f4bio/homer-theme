@@ -139,6 +139,12 @@ services:
         logo: "assets/tools/filebrowser.png"
         url: "http://qf4b.fritz.box:49159"
         target: "_blank"
+      - name: "Node-RED"
+        tag: "rpi4"
+        tagstyle: "is-success"
+        logo: "assets/tools/node-red.png"
+        url: "http://rpi4.fritz.box:1880"
+        target: "_blank"
 
   - name: "// www"
     icon: "fas fa-globe"
