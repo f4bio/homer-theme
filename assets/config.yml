@@ -104,7 +104,7 @@ services:
         tagstyle: "is-info"
         logo: "assets/tools/plex.png"
         url: "http://qf4b.fritz.box:32400/web"
-        endpoint: "http://localhost:3000/http://qf4b.fritz.box:49153"
+        endpoint: "http://localhost:3000/http://qf4b.fritz.box:49154"
         type: "Tautulli"
         apikey: "A0z2qhCwjhvn7IXxL6rfE7bn3ejJIE6J"
         target: "_blank"
